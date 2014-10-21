@@ -3,7 +3,7 @@ public class Bicycle {
 	// the Bicycle class has
     // three fields
     public int cadence;
-    public int gear;
+    public int coolgear;
     public int speed;
 
         
@@ -22,7 +22,7 @@ public class Bicycle {
     }
         
     public void setGear(int newValue) {
-        gear = newValue;
+        coolgear = newValue;
     }
         
     public void applyBrake(int decrement) {
